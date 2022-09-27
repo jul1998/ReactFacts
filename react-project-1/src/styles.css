@@ -1,0 +1,57 @@
+* {
+	/*border: 1px dashed red;*/
+	min-height: 10px;
+	box-sizing: border-box;
+}
+
+
+.body{
+	width:80%;
+}
+
+img{
+	height: 30px;
+	margin-right: 8px;
+}
+
+
+.navbar{
+	display: flex;
+    align-items: center;
+    background-color: #21222A;
+	color: white;
+    height: 90px;
+    padding: 30px 25px;
+	
+	margin: auto;
+}
+
+.header{
+	margin-right: 100px;
+	color: #00D8FF;
+	left:0
+}
+
+.maincontent{
+	padding-top:40px;
+	background-color:#282D35;
+	color:white;
+	padding-left:40px;
+
+
+	
+}
+
+.list{
+	line-height:40px;
+	list-style: none
+}
+
+.list li::before{
+	content: "\2022";
+	color: #61DAFB;
+	font-weight: bold;
+	display: inline-block; 
+	width: 1em;
+	font-size: 30px
+}
